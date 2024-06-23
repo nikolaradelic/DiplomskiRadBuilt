@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="maven-antrun-" default="main">
   <target name="main">
-    <mkdir dir="/home/nikola/NetBeansProjects/haversineDistance/target/cpp-build" />
-    <exec failonerror="true" dir="/home/nikola/NetBeansProjects/haversineDistance/target/cpp-build" executable="cmake">
-      <arg value="/home/nikola/NetBeansProjects/haversineDistance/src/main/native" />
+    <mkdir dir="/home/nikola/DiplomskiRad/haversineDistance/target/cpp-build" />
+    <exec failonerror="true" dir="/home/nikola/DiplomskiRad/haversineDistance/target/cpp-build" executable="cmake">
+      <arg value="/home/nikola/DiplomskiRad/haversineDistance/src/main/native" />
       <arg value="-DCMAKE_CXX_FLAGS=" />
     </exec>
     <exec failonerror="true" executable="cmake">
       <arg value="--build" />
-      <arg value="/home/nikola/NetBeansProjects/haversineDistance/target/cpp-build" />
+      <arg value="/home/nikola/DiplomskiRad/haversineDistance/target/cpp-build" />
       <arg value="-j10" />
       <arg value="-v" />
     </exec>

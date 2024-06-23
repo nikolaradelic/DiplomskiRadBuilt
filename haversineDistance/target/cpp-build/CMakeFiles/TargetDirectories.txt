@@ -1,3 +1,3 @@
-/home/nikola/NetBeansProjects/haversineDistance/target/cpp-build/CMakeFiles/haversineudfjni.dir
-/home/nikola/NetBeansProjects/haversineDistance/target/cpp-build/CMakeFiles/edit_cache.dir
-/home/nikola/NetBeansProjects/haversineDistance/target/cpp-build/CMakeFiles/rebuild_cache.dir
+/home/nikola/DiplomskiRad/haversineDistance/target/cpp-build/CMakeFiles/haversineudfjni.dir
+/home/nikola/DiplomskiRad/haversineDistance/target/cpp-build/CMakeFiles/edit_cache.dir
+/home/nikola/DiplomskiRad/haversineDistance/target/cpp-build/CMakeFiles/rebuild_cache.dir

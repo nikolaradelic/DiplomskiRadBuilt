@@ -6,7 +6,7 @@
 
 extern "C" {
     JNIEXPORT jlong JNICALL Java_com_example_haversinedistance_HaversineDistance_computeHaversine
-      (JNIEnv* env, jclass, jlong lat1Addr, jlong lon1Addr, jlong lat2Addr, jlong lon2Addr, jint length) {
+      (JNIEnv* env, jclass, jlong lat1Addr, jlong lon1Addr, jlong lat2Addr, jlong lon2Addr) {
 
         auto lat1_col = reinterpret_cast<cudf::column_view const*>(lat1Addr);
         auto lon1_col = reinterpret_cast<cudf::column_view const*>(lon1Addr);
